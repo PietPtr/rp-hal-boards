@@ -57,6 +57,7 @@ pio = "0.2.1"
 pio-proc = "0.2.2"
 rp2040-boot2 = "0.3.0"
 rp2040-hal = "0.10.0"
+rp2040-hal = { git = "https://github.com/rp-rs/rp-hal", rev = "2deb017b7aa5dad3f644614bec2f3710bdb7b9f3", package = "rp2040-hal" }
 st7789 = "0.6.1"
 st7735-lcd = "0.8.1"
 smart-leds = "0.3.0"
